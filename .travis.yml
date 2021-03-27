@@ -1,0 +1,18 @@
+language: java
+jdk: 
+- openjdk8
+before_install: 
+  - chmod 755 gradlew
+install: 
+  - ./gradlew build
+after_success:
+  - git clone "https://${repo}"
+  - mv ./build/libs/* Meme-Mod-Team/Builds/MoreMikuMaster
+  - cd Builds/
+  - git add *
+  - git commit -m "Commit by Travis CI"
+  - git push --force "https://amemiyasigure:${password}@${repo}"
+
+env:
+  global:
+    - repo: github.com/Meme-Mod-Team/MoreMikuMaster
