@@ -11,7 +11,7 @@ after_success:
   - cd Builds/
   - git add *
   - git commit -m "Commit by Travis CI"
-  - git push --force "https://amemiyasigure:${password}@${repo}"
+  - git push --force "https://theflysong:${password}@${repo}"
 
 env:
   global:
