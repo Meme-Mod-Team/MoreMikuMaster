@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "more_mikumaster:grass_mikumaster"
+    ]
+  },
+  "criteria": {
+    "has_mikumaster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "more_mikumaster:mikumaster"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "more_mikumaster:grass_mikumaster"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mikumaster",
+      "has_the_recipe"
+    ]
+  ]
+}
