@@ -1,6 +1,7 @@
 package io.github.memes.moremikumaster;
 
 import io.github.memes.moremikumaster.block.ModBlocks;
+import io.github.memes.moremikumaster.entity.ModEntities;
 import io.github.memes.moremikumaster.item.ModItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -33,6 +34,7 @@ public class MoreMikuMaster {
 
         new ModBlocks(bus);
         new ModItems(bus);
+        new ModEntities(bus);
     }
 
     public static MoreMikuMaster getInstance() {

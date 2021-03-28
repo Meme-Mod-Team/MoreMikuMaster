@@ -1,5 +1,7 @@
 {
   "block.more_mikumaster.mikumaster_ore": "\u7C73\u795E\u77FF",
+  "entity.more_mikumaster.cave_spider_mikumaster": "\u6D1E\u7A74\u8718\u86DB\u7C73\u795E",
+  "entity.more_mikumaster.zombie_mikumaster": "\u50F5\u5C38\u7C73\u795E",
   "item.more_mikumaster.grass_mikumaster": "\u8349\u7C73\u795E",
   "item.more_mikumaster.mikumaster": "\u7C73\u795E",
   "item.more_mikumaster.stone_mikumaster": "\u77F3\u5934\u7C73\u795E",
